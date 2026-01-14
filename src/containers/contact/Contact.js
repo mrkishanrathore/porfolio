@@ -29,27 +29,31 @@ export default function Contact() {
                 isDark ? "dark-mode contact-text-div" : "contact-text-div"
               }
             >
-              {contactInfo.number && (
-                <>
+              <div className="contact-profile-pic">
+                <img
+                  src={require("../../assets/images/myPhoto.png")}
+                  alt="Profile"
+                />
+              </div>
+
+              <div className="contact-info">
+                {contactInfo.number && (
                   <a
                     className="contact-detail"
                     href={"tel:" + contactInfo.number}
                   >
                     {contactInfo.number}
                   </a>
-                  <br />
-                  <br />
-                </>
-              )}
-              <a
-                className="contact-detail-email"
-                href={"mailto:" + contactInfo.email_address}
-              >
-                {contactInfo.email_address}
-              </a>
-              <br />
-              <br />
-              <SocialMedia />
+                )}
+                <a
+                  className="contact-detail-email"
+                  href={"mailto:" + contactInfo.email_address}
+                >
+                  {contactInfo.email_address}
+                </a>
+                <br />
+                <SocialMedia />
+              </div>
             </div>
           </div>
           <div className="contact-image-div">
