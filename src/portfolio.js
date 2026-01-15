@@ -373,7 +373,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Project Details",
-          url: "#"
+          url: "https://inyxa.com/inyxa-easy-pick/"
         }
       ]
     },
@@ -384,8 +384,8 @@ const bigProjects = {
         "Automated deployment solution built using WiX Toolset and .NET to install application binaries and configure databases with minimal manual effort.",
       footerLink: [
         {
-          name: "Case Study",
-          url: "#"
+          name: "GitHub Repo",
+          url: "https://github.com/mrkishanrathore/DotNet_SoftWare_Installer_Wix"
         }
       ]
     },
@@ -397,7 +397,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "GitHub Repo",
-          url: "#"
+          url: "https://github.com/mrkishanrathore/React_Socket_Multiplayers_Games"
         }
       ]
     }
@@ -480,7 +480,7 @@ const achievementSection = {
       footerLink: [
         {
           name: "Internship Certificate",
-          url: "#"
+          url: "https://drive.google.com/file/d/1GZhwvbRPO52R2kq3DERf8eF6cBqrxjkL/view?usp=drive_link"
         }
       ]
     },
@@ -493,7 +493,7 @@ const achievementSection = {
       footerLink: [
         {
           name: "Course Certificate",
-          url: "#"
+          url: "https://drive.google.com/file/d/1Gha7AxybpnYdnVklWsApFccjzV_0GoNz/view?usp=drive_link"
         }
       ]
     },
@@ -505,8 +505,8 @@ const achievementSection = {
       imageAlt: "Oracle Logo",
       footerLink: [
         {
-          name: "Project Overview",
-          url: "#"
+          name: "About EasyPick WMS",
+          url: "https://inyxa.com/inyxa-easy-pick/"
         }
       ]
     },
@@ -519,7 +519,7 @@ const achievementSection = {
       footerLink: [
         {
           name: "GitHub Repository",
-          url: "#"
+          url: "https://github.com/mrkishanrathore/React_Socket_Multiplayers_Games"
         }
       ]
     }
