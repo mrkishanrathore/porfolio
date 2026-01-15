@@ -378,7 +378,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/installerLogo.jpg"),
+      image: require("./assets/images/installer.jpg"),
       projectName: "EasyPick One-Click Installer",
       projectDesc:
         "Automated deployment solution built using WiX Toolset and .NET to install application binaries and configure databases with minimal manual effort.",
